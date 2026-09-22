@@ -1,0 +1,24 @@
+.heatmap-container {
+  margin: 20px 0;
+  font-family: sans-serif;
+}
+
+.heatmap-container table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+}
+
+.heatmap-container th, 
+.heatmap-container td {
+  border: 1px solid #333;
+  padding: 15px;
+  text-align: center;
+  color: #000;
+  font-weight: 500;
+}
+
+.heatmap-container th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}

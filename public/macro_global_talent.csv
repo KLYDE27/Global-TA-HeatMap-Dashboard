@@ -1,0 +1,4 @@
+id,region,digital_baseline,digital_pressure,digital_evidence,technical_baseline,technical_pressure,technical_evidence
+276,Europe (EU-27),10.45M (2025),High,EU 2030 target mandates 20.0M; EC projects baseline reaches only ~12.2M by 2030.,1.14M (2023),Medium,EU Chips Act targets 20% global fab share; specialized microelectronics assembly shortages.
+392,East Asia (Regional Aggregate),4.59M (2023),High,METI and regional labor ministries project cumulative IT talent gap exceeding 850k personnel by 2030 under high-demand scenarios.,782k (2023),Medium-High,Expansion of advanced 2nm fabrication nodes constrained by regional demographic aging and senior engineering deficits.
+608,Southeast Asia (Regional Aggregate),755k (2023),High,IT-BPM value escalation towards cloud/data analytics; regional tertiary STEM graduation pipelines remain under 20%.-,-,-

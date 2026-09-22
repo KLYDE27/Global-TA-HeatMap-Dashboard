@@ -1,0 +1,103 @@
+State,Talent,Employment 2025,Employment Growth,Workforce Density,Demand Pressure,Projection Base,Projection 2034,Annual Openings,Projected Growth,Annual Openings Rate,Demand Intensity Percentile,Supply Density Percentile,Balance Index,Talent Balance,Skill 1,Skill 2,Skill 3,Skill 4
+Alabama,Digital,57370,0.19,2.71%,6.32%,59800,64950,3780,8.61%,6.32%,41.17647059,45.09803922,-3.921568627,Balanced,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Alabama,Technical,373080,0.17,17.65%,10.54%,387120,415290,40800,7.28%,10.54%,76.47058824,100,-23.52941176,Surplus,CAD / CAE,Embedded / Controls,Manufacturing / CNC,GIS / Infrastructure
+Alaska,Digital,5500,7,1.69%,5.49%,4740,4720,260,-0.42%,5.49%,1.960784314,9.803921569,-7.843137255,Balanced,Software Engineering,Database / SQL,Cloud Computing,Cybersecurity
+Alaska,Technical,35040,-0.48,10.76%,9.51%,36580,37720,3480,3.12%,9.51%,17.64705882,38.23529412,-20.58823529,Surplus,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+Arizona,Digital,106120,-1.56,3.28%,7.19%,109440,125880,7870,15.02%,7.19%,84.31372549,74.50980392,9.803921569,Balanced,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Arizona,Technical,321360,0.47,9.92%,11.20%,337390,383740,37790,13.74%,11.20%,96.07843137,27.45098039,68.62745098,Shortage,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+Arkansas,Digital,27920,6,2.14%,6.77%,23350,26080,1580,11.69%,6.77%,66.66666667,25.49019608,41.17647059,Shortage,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Arkansas,Technical,191780,-0.71,14.71%,10.66%,197330,208000,21030,5.41%,10.66%,82.35294118,88.23529412,-5.882352941,Balanced,CAD / CAE,Embedded / Controls,Maintenance / Reliability,Manufacturing / CNC
+California,Digital,717740,-2.95,3.94%,6.99%,743400,844800,51950,13.64%,6.99%,72.54901961,84.31372549,-11.76470588,Balanced,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+California,Technical,1618370,-0.99,8.89%,9.61%,1668900,1710200,160450,2.47%,9.61%,29.41176471,17.64705882,11.76470588,Balanced,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+Colorado,Digital,136010,-0.02,4.73%,8.52%,136460,173950,11630,27.47%,8.52%,100,92.15686275,7.843137255,Balanced,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Colorado,Technical,280470,1.67,9.76%,10.46%,286440,318610,29960,11.23%,10.46%,74.50980392,25.49019608,49.01960784,Shortage,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+Connecticut,Digital,48210,-2.67,2.84%,6.41%,51520,55980,3300,8.66%,6.41%,52.94117647,50.98039216,1.960784314,Balanced,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Connecticut,Technical,174150,0.74,as,10.28%,180310,194870,18530,8.07%,10.28%,66.66666667,29.41176471,37.25490196,Shortage,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Manufacturing / CNC
+Delaware,Digital,14490,-12.02,2.99%,6.34%,16410,17510,1040,6.70%,6.34%,43.1372549,54.90196078,-11.76470588,Balanced,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Delaware,Technical,40910,-1.68,8.44%,10.16%,41240,43490,4190,5.46%,10.16%,58.82352941,9.803921569,49.01960784,Shortage,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+District of Columbia,Digital,43050,-9.58,6.13%,5.72%,48590,49790,2780,2.47%,5.72%,3.921568627,98.03921569,-94.11764706,Surplus,Software Engineering,Database / SQL,Cloud Computing,Data Analytics / Data Science
+District of Columbia,Technical,27520,8.69,3.92%,7.94%,24180,24330,1920,0.62%,7.94%,1.960784314,1.960784314,0,Balanced,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+Florida,Digital,301040,3.53,3.03%,7.59%,295640,348700,22440,17.95%,7.59%,88.23529412,62.74509804,25.49019608,Shortage,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Florida,Technical,846310,-1.06,8.52%,10.87%,890990,988390,96850,10.93%,10.87%,94.11764706,13.7254902,80.39215686,Shortage,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+Georgia,Digital,170620,2.61,3.49%,6.79%,147850,164770,10040,11.44%,6.79%,68.62745098,76.47058824,-7.843137255,Balanced,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Georgia,Technical,581570,0.09,11.90%,10.67%,580050,620920,61870,7.05%,10.67%,84.31372549,56.8627451,27.45098039,Shortage,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+Hawaii,Digital,12220,-9.95,1.95%,5.93%,14000,14680,830,4.86%,5.93%,19.60784314,15.68627451,3.921568627,Balanced,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Hawaii,Technical,49050,2.81,7.82%,9.53%,49210,50670,4690,2.97%,9.53%,23.52941176,5.882352941,17.64705882,Shortage,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+Idaho,Digital,19570,4.26,2.28%,7.50%,18790,22190,1410,18.09%,7.50%,86.2745098,27.45098039,58.82352941,Shortage,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Idaho,Technical,105040,4.68,12.25%,11.69%,132310,150390,15470,13.66%,11.69%,100,66.66666667,33.33333333,Shortage,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+Illinois,Digital,182560,2.29,2.99%,5.86%,178900,186980,10490,4.52%,5.86%,11.76470588,58.82352941,-47.05882353,Surplus,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Illinois,Technical,703520,-1.53,11.54%,9.77%,723890,727400,70720,0.48%,9.77%,39.21568627,50.98039216,-11.76470588,Balanced,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Manufacturing / CNC
+Indiana,Digital,67640,-1.1,2.11%,7.08%,67680,76420,4790,12.91%,7.08%,82.35294118,21.56862745,60.78431373,Shortage,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Indiana,Technical,544080,-1.18,17.00%,9.93%,562760,572700,55870,1.77%,9.93%,45.09803922,98.03921569,-52.94117647,Surplus,CAD / CAE,Embedded / Controls,Manufacturing / CNC,GIS / Infrastructure
+Iowa,Digital,38250,-2.37,2.45%,6.45%,39220,42530,2530,8.44%,6.45%,56.8627451,35.29411765,21.56862745,Shortage,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Iowa,Technical,233170,-1.72,14.95%,10.45%,240570,252800,25150,5.08%,10.45%,72.54901961,90.19607843,-17.64705882,Surplus,CAD / CAE,Embedded / Controls,Maintenance / Reliability,GIS / Infrastructure
+Kansas,Digital,37910,-3.78,2.64%,6.05%,39510,42130,2390,6.63%,6.05%,29.41176471,43.1372549,-13.7254902,Balanced,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Kansas,Technical,205290,-0.87,14.28%,9.89%,212210,217390,20980,2.44%,9.89%,43.1372549,84.31372549,-41.17647059,Surplus,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Manufacturing / CNC
+Kentucky,Digital,39210,1.4,1.96%,5.98%,39470,41270,2360,4.56%,5.98%,23.52941176,17.64705882,5.882352941,Balanced,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Kentucky,Technical,302040,-2.71,15.10%,10.27%,315720,327360,32420,3.69%,10.27%,64.70588235,92.15686275,-27.45098039,Surplus,CAD / CAE,Embedded / Controls,Manufacturing / CNC,GIS / Infrastructure
+Louisiana,Digital,26330,4.48,1.36%,6.39%,25960,28120,1660,8.32%,6.39%,50.98039216,1.960784314,49.01960784,Shortage,Software Engineering,Database / SQL,Cloud Computing,Data Analytics / Data Science
+Louisiana,Technical,228210,0.56,11.79%,9.77%,235400,242800,22990,3.14%,9.77%,37.25490196,52.94117647,-15.68627451,Surplus,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+Maine,Digital,15000,3.81,2.34%,6.36%,14780,15930,940,7.78%,6.36%,47.05882353,29.41176471,17.64705882,Shortage,Software Engineering,Database / SQL,Cloud Computing,Data Analytics / Data Science
+Maine,Technical,73330,0.29,11.45%,8.85%,75720,73150,6700,-3.39%,8.85%,7.843137255,49.01960784,-41.17647059,Surplus,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+Maryland,Digital,139610,0.03,5.05%,6.43%,157060,170590,10100,8.61%,6.43%,54.90196078,94.11764706,-39.21568627,Surplus,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Maryland,Technical,216890,1.92,7.85%,9.33%,233560,243090,21800,4.08%,9.33%,11.76470588,7.843137255,3.921568627,Balanced,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+Massachusetts,Digital,153860,-1.8,4.23%,5.99%,158340,167630,9490,5.87%,5.99%,25.49019608,90.19607843,-64.70588235,Surplus,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Massachusetts,Technical,326020,-1.02,8.96%,9.52%,330620,340250,31480,2.91%,9.52%,19.60784314,19.60784314,0,Balanced,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+Michigan,Digital,126780,0.96,2.88%,5.74%,131270,135860,7540,3.50%,5.74%,7.843137255,52.94117647,-45.09803922,Surplus,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Michigan,Technical,725150,-3.77,16.47%,9.05%,760410,744380,68830,-2.11%,9.05%,9.803921569,96.07843137,-86.2745098,Surplus,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Manufacturing / CNC
+Minnesota,Digital,95850,-1.65,3.25%,5.87%,98330,103080,5770,4.83%,5.87%,13.7254902,70.58823529,-56.8627451,Surplus,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Minnesota,Technical,359760,-2.46,12.20%,9.58%,380940,384240,36480,0.87%,9.58%,25.49019608,64.70588235,-39.21568627,Surplus,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Manufacturing / CNC
+Mississippi,Digital,15920,-3.63,1.37%,7.67%,17590,20750,1350,17.96%,7.67%,92.15686275,3.921568627,88.23529412,Shortage,Software Engineering,Database / SQL,Cloud Computing,Cybersecurity
+Mississippi,Technical,170940,-2.11,14.70%,10.69%,177900,189250,19020,6.38%,10.69%,86.2745098,86.2745098,0,Balanced,CAD / CAE,Embedded / Controls,Maintenance / Reliability,GIS / Infrastructure
+Missouri,Digital,88550,3.9,3.02%,6.48%,104360,113620,6760,8.87%,6.48%,60.78431373,60.78431373,0,Balanced,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Missouri,Technical,350800,-0.61,11.95%,10.13%,377670,389540,38240,3.14%,10.13%,52.94117647,60.78431373,-7.843137255,Balanced,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+Montana,Digital,9460,-1.87,1.85%,5.83%,9090,9430,530,3.74%,5.83%,9.803921569,11.76470588,-1.960784314,Balanced,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Montana,Technical,49640,-2.55,9.70%,10.15%,52130,55820,5290,7.08%,10.15%,56.8627451,23.52941176,33.33333333,Shortage,CAD / CAE,GIS / Infrastructure,Embedded / Controls,Maintenance / Reliability
+Nebraska,Digital,31220,-3.67,3.05%,6.46%,35000,38090,2260,8.83%,6.46%,58.82352941,64.70588235,-5.882352941,Balanced,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Nebraska,Technical,131770,0.05,12.86%,10.20%,140350,145710,14320,3.82%,10.20%,62.74509804,76.47058824,-13.7254902,Balanced,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+Nevada,Digital,29810,8.8,1.92%,7.05%,28230,31820,1990,12.72%,7.05%,78.43137255,13.7254902,64.70588235,Shortage,Software Engineering,Database / SQL,Cloud Computing,Cybersecurity
+Nevada,Technical,136560,0.23,8.80%,11.34%,137840,154830,15630,12.33%,11.34%,98.03921569,15.68627451,82.35294118,Shortage,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+New Hampshire,Digital,25440,11.92,3.72%,6.01%,22620,24100,1360,6.54%,6.01%,27.45098039,82.35294118,-54.90196078,Surplus,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+New Hampshire,Technical,80810,-0.83,11.83%,9.60%,82160,84840,7890,3.26%,9.60%,27.45098039,54.90196078,-27.45098039,Surplus,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+New Jersey,Digital,154820,-5.84,3.61%,5.90%,167520,176120,9890,5.13%,5.90%,17.64705882,78.43137255,-60.78431373,Surplus,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+New Jersey,Technical,363220,2.25,8.48%,10.00%,373740,385930,37390,3.26%,10.00%,47.05882353,11.76470588,35.29411765,Shortage,CAD / CAE,Embedded / Controls,Maintenance / Reliability,GIS / Infrastructure
+New Mexico,Digital,20520,-13.71,2.36%,7.06%,21380,24140,1510,12.91%,7.06%,80.39215686,31.37254902,49.01960784,Shortage,Software Engineering,Database / SQL,Cloud Computing,Cybersecurity
+New Mexico,Technical,93740,4.39,10.76%,9.75%,83360,88410,8130,6.06%,9.75%,33.33333333,38.23529412,-4.901960784,Balanced,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+New York,Digital,314780,4.93,3.25%,5.73%,319530,330790,18300,3.52%,5.73%,5.882352941,68.62745098,-62.74509804,Surplus,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+New York,Technical,721000,-0.87,7.44%,8.74%,761910,728850,66600,-4.34%,8.74%,3.921568627,3.921568627,0,Balanced,CAD / CAE,Embedded / Controls,Maintenance / Reliability,GIS / Infrastructure
+North Carolina,Digital,195720,4.36,3.96%,6.58%,185750,205070,12220,10.40%,6.58%,64.70588235,86.2745098,-21.56862745,Surplus,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+North Carolina,Technical,600740,-0.17,12.16%,10.07%,622290,642650,62640,3.27%,10.07%,49.01960784,62.74509804,-13.7254902,Balanced,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+North Dakota,Digital,6920,-9.42,1.61%,6.27%,7810,8560,490,9.60%,6.27%,37.25490196,7.843137255,29.41176471,Shortage,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+North Dakota,Technical,52700,-0.27,12.27%,10.20%,54410,58190,5550,6.95%,10.20%,60.78431373,68.62745098,-7.843137255,Balanced,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+Ohio,Digital,151340,2.28,2.73%,5.96%,144060,151760,8590,5.34%,5.96%,21.56862745,47.05882353,-25.49019608,Surplus,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Ohio,Technical,776700,-1.02,13.99%,9.36%,803620,796950,75250,-0.83%,9.36%,13.7254902,80.39215686,-66.66666667,Surplus,CAD / CAE,Embedded / Controls,Manufacturing / CNC,GIS / Infrastructure
+Oklahoma,Digital,40490,4.36,2.37%,6.26%,41370,44070,2590,6.53%,6.26%,35.29411765,33.33333333,1.960784314,Balanced,Software Engineering,Database / SQL,Cloud Computing,Cybersecurity
+Oklahoma,Technical,217680,-0.97,12.75%,9.52%,225980,229110,21520,1.39%,9.52%,21.56862745,74.50980392,-52.94117647,Surplus,CAD / CAE,Embedded / Controls,Maintenance / Reliability,GIS / Infrastructure
+Oregon,Digital,63890,2.93,3.25%,6.50%,63360,69480,4120,9.66%,6.50%,62.74509804,66.66666667,-3.921568627,Balanced,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Oregon,Technical,222520,-2.67,11.31%,10.32%,228460,241000,23570,5.49%,10.32%,68.62745098,47.05882353,21.56862745,Shortage,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Manufacturing / CNC
+Pennsylvania,Digital,181360,3.93,2.99%,6.35%,183560,198320,11650,8.04%,6.35%,45.09803922,56.8627451,-11.76470588,Balanced,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Pennsylvania,Technical,682040,-0.94,11.25%,9.76%,716060,732930,69890,2.36%,9.76%,35.29411765,41.17647059,-5.882352941,Balanced,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+Rhode Island,Digital,16390,-11.02,3.27%,6.22%,18160,19420,1130,6.94%,6.22%,33.33333333,72.54901961,-39.21568627,Surplus,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Rhode Island,Technical,52940,-2.45,10.56%,9.84%,60090,61840,5910,2.91%,9.84%,41.17647059,35.29411765,5.882352941,Balanced,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+South Carolina,Digital,57250,6,2.48%,7.03%,54230,61330,3810,13.09%,7.03%,76.47058824,37.25490196,39.21568627,Shortage,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+South Carolina,Technical,327760,-1.21,14.22%,10.85%,344080,374610,37320,8.87%,10.85%,92.15686275,82.35294118,9.803921569,Balanced,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+South Dakota,Digital,9670,0.1,2.11%,6.39%,10010,10950,640,9.39%,6.39%,49.01960784,23.52941176,25.49019608,Shortage,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+South Dakota,Technical,57890,-0.34,12.66%,10.69%,59100,64170,6320,8.58%,10.69%,88.23529412,72.54901961,15.68627451,Shortage,CAD / CAE,GIS / Infrastructure,Embedded / Controls,Maintenance / Reliability
+Tennessee,Digital,82790,1.47,2.53%,6.90%,79590,89890,5490,12.94%,6.90%,70.58823529,39.21568627,31.37254902,Shortage,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Tennessee,Technical,450710,-1.02,13.75%,10.63%,469360,500760,49880,6.69%,10.63%,78.43137255,78.43137255,0,Balanced,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+Texas,Digital,511360,3.1,3.63%,8.08%,452810,552660,36600,22.05%,8.08%,96.07843137,80.39215686,15.68627451,Shortage,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Texas,Technical,1587400,2.71,11.28%,10.75%,1557690,1711390,167410,9.87%,10.75%,90.19607843,43.1372549,47.05882353,Shortage,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+Utah,Digital,73370,1.82,4.23%,7.68%,71830,85760,5520,19.39%,7.68%,94.11764706,88.23529412,5.882352941,Balanced,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Utah,Technical,207150,1.33,11.94%,10.63%,209310,225510,22250,7.74%,10.63%,80.39215686,58.82352941,21.56862745,Shortage,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+Vermont,Digital,7720,-4.81,2.54%,5.89%,7980,8110,470,1.63%,5.89%,15.68627451,41.17647059,-25.49019608,Surplus,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Vermont,Technical,31920,-4.66,10.50%,8.79%,34020,33460,2990,-1.65%,8.79%,5.882352941,33.33333333,-27.45098039,Surplus,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+Virginia,Digital,248190,4.14,6.04%,7.62%,245350,281250,18690,14.63%,7.62%,90.19607843,96.07843137,-5.882352941,Balanced,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Virginia,Technical,395400,1.31,9.62%,9.51%,411750,422600,39160,2.64%,9.51%,15.68627451,21.56862745,-5.882352941,Balanced,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+Washington,Digital,239720,12.44,6.75%,8.36%,222010,251310,18570,13.20%,8.36%,98.03921569,100,-1.960784314,Balanced,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Washington,Technical,371880,-1.63,10.47%,10.09%,414350,430490,41810,3.90%,10.09%,50.98039216,31.37254902,19.60784314,Shortage,CAD / CAE,Embedded / Controls,GIS / Infrastructure,Maintenance / Reliability
+West Virginia,Digital,14520,8.12,2.07%,7.02%,14240,15940,1000,11.94%,7.02%,74.50980392,19.60784314,54.90196078,Shortage,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+West Virginia,Technical,79170,-1.15,11.28%,9.64%,78450,80970,7560,3.21%,9.64%,31.37254902,45.09803922,-13.7254902,Balanced,CAD / CAE,Embedded / Controls,Maintenance / Reliability,GIS / Infrastructure
+Wisconsin,Digital,81570,-1.06,2.77%,6.29%,86200,92610,5420,7.44%,6.29%,39.21568627,49.01960784,-9.803921569,Balanced,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Wisconsin,Technical,458670,-2.86,15.59%,10.13%,483410,496860,48990,2.78%,10.13%,54.90196078,94.11764706,-39.21568627,Surplus,CAD / CAE,Embedded / Controls,Manufacturing / CNC,GIS / Infrastructure
+Wyoming,Digital,4430,8.85,1.58%,6.17%,3890,4350,240,11.83%,6.17%,31.37254902,5.882352941,25.49019608,Shortage,Software Engineering,Database / SQL,Cloud Computing,DevOps / Automation
+Wyoming,Technical,35190,-0.87,12.53%,10.38%,36240,39650,3760,9.41%,10.38%,70.58823529,70.58823529,0,Balanced,CAD / CAE,Embedded / Controls,Maintenance / Reliability,GIS / Infrastructure

@@ -1,0 +1,5 @@
+id,name,digital_baseline,digital_pressure,digital_evidence,technical_baseline,technical_pressure,technical_evidence
+51,Virginia,241530,High,Dense concentration in hyperscale cloud facilities and federal defense/cyber contracting (LQ: 1.78).,48200,Medium,Steady state defense manufacturing base and specialized aerospace component demand.
+53,Washington,214780,High,Enterprise cloud platforms & software engineering hub; Seattle MSA LQ: 2.42.,62100,High,Severe regional talent competition for avionics and advanced manufacturing engineering.
+6,California,759060,Medium,Massive supply volume offset by aggressive global competition in frontier AI architectures (LQ: 1.24).,185400,High,Hardware engineering bottlenecks for semiconductor design and advanced EV manufacturing.
+48,Texas,490410,Medium,Rapid corporate HQ absorption; tech corridors expanding across Austin and Dallas (LQ: 1.06).,142300,Medium,Expanding semiconductor fab footprint (Silicon Hills) demanding specialized process engineers.
