@@ -29,9 +29,9 @@ const MACRO_DATA = [
     digital_growth: -0.70,
     digital_density: 0.50,
     digital_demand: 61.1,
-    digital_supply_score: 5.42,
-    digital_demand_score: 76.37,
-    digital_balance_score: 70.95,
+    digital_supply_score: 0.00,
+    digital_demand_score: 34.24,
+    digital_balance_score: 34.24,
     digital_balance: "Shortage",
     digital_skills: ["Generative AI", "AI / Machine Learning", "Cybersecurity", "Data Analytics"],
 
@@ -39,9 +39,9 @@ const MACRO_DATA = [
     technical_growth: 12.27,
     technical_density: 8.31,
     technical_demand: 61.1,
-    technical_supply_score: 21.04,
-    technical_demand_score: 76.13,
-    technical_balance_score: 55.09,
+    technical_supply_score: 2.67,
+    technical_demand_score: 34.24,
+    technical_balance_score: 31.57,
     technical_balance: "Shortage",
     technical_skills: ["Production / Process Operations", "Machinery & Fabrication", "Engineering Technicians", "Assembly / Manufacturing"],
 
@@ -56,20 +56,20 @@ const MACRO_DATA = [
     digital_growth: 1.35,
     digital_density: 0.77,
     digital_demand: 54.8,
-    digital_supply_score: 13.55,
-    digital_demand_score: 64.06,
-    digital_balance_score: 50.51,
-    digital_balance: "Shortage",
+    digital_supply_score: 10.23,
+    digital_demand_score: 0.00,
+    digital_balance_score: -10.23,
+    digital_balance: "Balanced",
     digital_skills: ["AI / Machine Learning", "Generative AI", "Cybersecurity", "Data Analytics"],
 
     technical_employment: 139071000,
     technical_growth: 1.74,
     technical_density: 10.21,
     technical_demand: 54.8,
-    technical_supply_score: 40.73,
-    technical_demand_score: 63.71,
-    technical_balance_score: 22.98,
-    technical_balance: "Shortage",
+    technical_supply_score: 27.99,
+    technical_demand_score: 0.00,
+    technical_balance_score: -27.99,
+    technical_balance: "Surplus",
     technical_skills: ["Engineering & Technical Design", "Assembly / Manufacturing", "Machinery & Fabrication", "Production / Process Operations"],
 
     digital_salary: 21388,
@@ -83,9 +83,9 @@ const MACRO_DATA = [
     digital_growth: 3.95,
     digital_density: 3.33,
     digital_demand: 73.2,
-    digital_supply_score: 90.66,
+    digital_supply_score: 90.21,
     digital_demand_score: 100.00,
-    digital_balance_score: 9.34,
+    digital_balance_score: 9.79,
     digital_balance: "Balanced",
     digital_skills: ["AI / Machine Learning", "Generative AI", "Cybersecurity", "Data Analytics"],
 
@@ -105,41 +105,14 @@ const MACRO_DATA = [
     coverage_note: "Regional aggregate based on available European observations. Hiring difficulty is JETRO; balance uses within-talent min-max normalization.",
   },
   {
-    region: "Southern Africa",
-    digital_employment: 6167000,
-    digital_growth: -35.62,
-    digital_density: 0.32,
-    digital_demand: 22.0,
-    digital_supply_score: 0.00,
-    digital_demand_score: 0.00,
-    digital_balance_score: 0.00,
-    digital_balance: "Balanced",
-    digital_skills: ["Generative AI", "AI / Machine Learning", "Cybersecurity", "Data Analytics"],
-
-    technical_employment: 120910000,
-    technical_growth: -17.67,
-    technical_density: 6.28,
-    technical_demand: 22.5,
-    technical_supply_score: 0.00,
-    technical_demand_score: 0.00,
-    technical_balance_score: 0.00,
-    technical_balance: "Balanced",
-    technical_skills: ["Machinery & Fabrication", "Engineering Technicians", "Assembly / Manufacturing", "Electrical / Electronics Trades"],
-
-    digital_salary: 32918,
-    technical_salary: 14910,
-
-    coverage_note: "Partial coverage; hiring difficulty uses South Africa as a proxy and is not directly comparable with JETRO regional values.",
-  },
-  {
     region: "Latin America",
     digital_employment: 2520000,
     digital_growth: 3.48,
     digital_density: 1.37,
     digital_demand: 64.9,
-    digital_supply_score: 31.63,
-    digital_demand_score: 83.79,
-    digital_balance_score: 52.16,
+    digital_supply_score: 27.12,
+    digital_demand_score: 54.89,
+    digital_balance_score: 27.77,
     digital_balance: "Shortage",
     digital_skills: ["Generative AI", "Cybersecurity", "AI / Machine Learning", "Data Analytics"],
 
@@ -147,9 +120,9 @@ const MACRO_DATA = [
     technical_growth: 2.46,
     technical_density: 8.10,
     technical_demand: 64.9,
-    technical_supply_score: 29.95,
-    technical_demand_score: 83.63,
-    technical_balance_score: 53.68,
+    technical_supply_score: 0.00,
+    technical_demand_score: 54.89,
+    technical_balance_score: 54.89,
     technical_balance: "Shortage",
     technical_skills: ["Machinery & Fabrication", "Production / Process Operations", "Engineering Technicians", "Engineering & Technical Design"],
 
@@ -165,8 +138,8 @@ const MACRO_DATA = [
     digital_density: 3.64,
     digital_demand: 61.9,
     digital_supply_score: 100.00,
-    digital_demand_score: 77.93,
-    digital_balance_score: -22.07,
+    digital_demand_score: 38.59,
+    digital_balance_score: -61.41,
     digital_balance: "Surplus",
     digital_skills: ["AI / Machine Learning", "Generative AI", "Cybersecurity", "Data Analytics"],
 
@@ -174,9 +147,9 @@ const MACRO_DATA = [
     technical_growth: -0.01,
     technical_density: 9.85,
     technical_demand: 61.9,
-    technical_supply_score: 36.99,
-    technical_demand_score: 77.71,
-    technical_balance_score: 40.72,
+    technical_supply_score: 22.45,
+    technical_demand_score: 38.59,
+    technical_balance_score: 16.14,
     technical_balance: "Shortage",
     technical_skills: ["Engineering & Technical Design", "Machinery & Fabrication", "Engineering Technicians", "Electrical / Electronics Trades"],
 
@@ -260,14 +233,6 @@ const COUNTRY_TO_REGION = {
   Switzerland: "Europe",
   Ukraine: "Europe",
   "United Kingdom": "Europe",
-
-  /* Southern Africa */
-  Botswana: "Southern Africa",
-  Eswatini: "Southern Africa",
-  Swaziland: "Southern Africa",
-  Lesotho: "Southern Africa",
-  Namibia: "Southern Africa",
-  "South Africa": "Southern Africa",
 
   /* Latin America */
   Argentina: "Latin America",
@@ -533,6 +498,7 @@ export default function App() {
   const [view, setView] = useState("macro");
   const [talentType, setTalentType] = useState("digital");
   const [metric, setMetric] = useState("demand");
+  const [darkMode, setDarkMode] = useState(false);
 
   const [microData, setMicroData] = useState([]);
   const [microSocRows, setMicroSocRows] = useState([]);
@@ -1135,18 +1101,60 @@ export default function App() {
      ======================================================= */
 
   return (
-    <div className="research-dashboard">
+    <div className={`research-dashboard ${darkMode ? "dark-mode" : ""}`}>
+      <style>{`
+        .research-dashboard.dark-mode { background: #0b1220; color: #e2e8f0; }
+        .research-dashboard.dark-mode .header h1,
+        .research-dashboard.dark-mode .header p,
+        .research-dashboard.dark-mode .card,
+        .research-dashboard.dark-mode .table-heading h3,
+        .research-dashboard.dark-mode .table-heading p,
+        .research-dashboard.dark-mode .metric-label,
+        .research-dashboard.dark-mode th,
+        .research-dashboard.dark-mode td,
+        .research-dashboard.dark-mode .region-name { color: #e2e8f0 !important; }
+        .research-dashboard.dark-mode .card { background: #111c2e !important; border-color: #26354b !important; }
+        .research-dashboard.dark-mode .btn,
+        .research-dashboard.dark-mode .metric-btn { background: #1b2a41 !important; color: #dbeafe !important; border-color: #334155 !important; }
+        .research-dashboard.dark-mode .btn.active,
+        .research-dashboard.dark-mode .metric-btn.active { background: #2563eb !important; color: #ffffff !important; border-color: #3b82f6 !important; }
+        .research-dashboard.dark-mode .table-scroll,
+        .research-dashboard.dark-mode .map-container { background: #0f1a2b !important; }
+        .research-dashboard.dark-mode thead tr,
+        .research-dashboard.dark-mode th { background: #17243a !important; }
+        .research-dashboard.dark-mode td { border-color: #26354b !important; }
+        .research-dashboard.dark-mode tr:hover td { background: #17243a !important; }
+        .research-dashboard.dark-mode .heatmap-legend,
+        .research-dashboard.dark-mode .legend-title,
+        .research-dashboard.dark-mode .legend-items,
+        .research-dashboard.dark-mode .continuous-legend { color: #cbd5e1 !important; }
+        .research-dashboard.dark-mode .micro-filter-panel { background: #0f1a2b !important; border-color: #334155 !important; }
+        .research-dashboard.dark-mode .micro-filter-title,
+        .research-dashboard.dark-mode .micro-filter-copy,
+        .research-dashboard.dark-mode .micro-filter-group,
+        .research-dashboard.dark-mode .micro-filter-option { color: #dbeafe !important; }
+        .research-dashboard.dark-mode .micro-filter-card { background: #17243a !important; border-color: #334155 !important; }
+      `}</style>
       <div className="module-stack">
 
         <div className="header">
-          <h1>
-            Global Talent
-            Benchmarking
-          </h1>
+          <div>
+            <h1>
+              Global Talent
+              Benchmarking
+            </h1>
 
-          <p>
-            Digital and Technical Talent Supply, Growth, Demand and Relative Balance
-          </p>
+            <p>
+              Digital and Technical Talent Supply, Growth, Demand and Relative Balance
+            </p>
+          </div>
+          <button
+            className="btn"
+            onClick={() => setDarkMode((enabled) => !enabled)}
+            aria-label="Toggle dark mode"
+          >
+            {darkMode ? "Light mode" : "Dark mode"}
+          </button>
         </div>
 
         <div className="card">
@@ -1230,6 +1238,7 @@ export default function App() {
 
           {view === "micro" && (
             <div
+              className="micro-filter-panel"
               style={{
                 margin: "0 0 18px",
                 padding: "14px",
@@ -1240,8 +1249,8 @@ export default function App() {
             >
               <div style={{ display: "flex", justifyContent: "space-between", gap: "12px", alignItems: "center" }}>
                 <div>
-                  <div style={{ fontWeight: 700, color: "#0f172a" }}>Occupation subcategory filter</div>
-                  <div style={{ marginTop: "3px", color: "#64748b", fontSize: "12px" }}>
+                  <div className="micro-filter-title" style={{ fontWeight: 700, color: "#0f172a" }}>Occupation subcategory filter</div>
+                  <div className="micro-filter-copy" style={{ marginTop: "3px", color: "#64748b", fontSize: "12px" }}>
                     {selectedSocs.size} of {microSocOptions.length} SOC occupations selected. State results recalculate from your selection.
                   </div>
                 </div>
@@ -1263,13 +1272,13 @@ export default function App() {
 
                   <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "16px", marginTop: "12px" }}>
                     {["digital", "technical"].map((group) => (
-                      <div key={group} style={{ background: "#ffffff", border: "1px solid #e2e8f0", borderRadius: "8px", padding: "10px" }}>
-                        <div style={{ color: "#334155", fontWeight: 700, fontSize: "12px", marginBottom: "7px", textTransform: "uppercase" }}>
+                      <div key={group} className="micro-filter-card" style={{ background: "#ffffff", border: "1px solid #e2e8f0", borderRadius: "8px", padding: "10px" }}>
+                        <div className="micro-filter-group" style={{ color: "#334155", fontWeight: 700, fontSize: "12px", marginBottom: "7px", textTransform: "uppercase" }}>
                           {group} occupations
                         </div>
                         <div style={{ maxHeight: "250px", overflowY: "auto", paddingRight: "4px" }}>
                           {microSocOptions.filter((item) => item.talent === group).map((item) => (
-                            <label key={item.soc} style={{ display: "flex", alignItems: "flex-start", gap: "8px", padding: "5px 2px", color: "#334155", fontSize: "12px", cursor: "pointer" }}>
+                            <label key={item.soc} className="micro-filter-option" style={{ display: "flex", alignItems: "flex-start", gap: "8px", padding: "5px 2px", color: "#334155", fontSize: "12px", cursor: "pointer" }}>
                               <input
                                 type="checkbox"
                                 checked={selectedSocs.has(item.soc)}
