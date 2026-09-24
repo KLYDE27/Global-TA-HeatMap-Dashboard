@@ -22,13 +22,13 @@ const microSocUrl = "/micro_soc(1).csv";
    MACRO DATA
    ========================================================= */
 
-const MACRO_DATA = [
+const MACRO_INPUTS = [
   {
     region: "Southeast Asia",
     digital_employment: 1530000,
     digital_growth: -0.70,
     digital_density: 0.50,
-    digital_demand: 61.1,
+    digital_demand: 45.5,
     digital_supply_score: 0.00,
     digital_demand_score: 34.24,
     digital_balance_score: 34.24,
@@ -38,17 +38,17 @@ const MACRO_DATA = [
     technical_employment: 25290000,
     technical_growth: 12.27,
     technical_density: 8.31,
-    technical_demand: 61.1,
+    technical_demand: 45.5,
     technical_supply_score: 2.67,
     technical_demand_score: 34.24,
     technical_balance_score: 31.57,
     technical_balance: "Shortage",
     technical_skills: ["Production / Process Operations", "Machinery & Fabrication", "Engineering Technicians", "Assembly / Manufacturing"],
 
-    digital_salary: 20663,
-    technical_salary: 12936,
+    digital_salary: 22626,
+    technical_salary: 11091,
 
-    coverage_note: "Regional aggregate based on available ILOSTAT observations. Hiring difficulty is JETRO; balance uses within-talent min-max normalization.",
+    coverage_note: "Employment is based on available ILOSTAT observations. Demand pressure is JETRO FY2024 expansion intent. Salary is annualized ILOSTAT 2021 PPP hourly earnings.",
   },
   {
     region: "East Asia",
@@ -75,14 +75,14 @@ const MACRO_DATA = [
     digital_salary: 21388,
     technical_salary: 21665,
 
-    coverage_note: "Partial geographic coverage. Hiring difficulty is JETRO; balance uses within-talent min-max normalization.",
+    coverage_note: "Partial geographic coverage. Uses the former East Asia macro benchmark values.",
   },
   {
     region: "Europe",
     digital_employment: 11050000,
     digital_growth: 3.95,
     digital_density: 3.33,
-    digital_demand: 73.2,
+    digital_demand: 46.2,
     digital_supply_score: 90.21,
     digital_demand_score: 100.00,
     digital_balance_score: 9.79,
@@ -92,24 +92,24 @@ const MACRO_DATA = [
     technical_employment: 52880000,
     technical_growth: 1.41,
     technical_density: 15.93,
-    technical_demand: 73.2,
+    technical_demand: 46.2,
     technical_supply_score: 100.00,
     technical_demand_score: 100.00,
     technical_balance_score: 0.00,
     technical_balance: "Balanced",
     technical_skills: ["Engineering & Technical Design", "Machinery & Fabrication", "Engineering Technicians", "Production / Process Operations"],
 
-    digital_salary: 71122,
-    technical_salary: 53575,
+    digital_salary: 47116,
+    technical_salary: 32261,
 
-    coverage_note: "Regional aggregate based on available European observations. Hiring difficulty is JETRO; balance uses within-talent min-max normalization.",
+    coverage_note: "Employment is based on available ILOSTAT observations. Demand pressure is JETRO FY2024 expansion intent. Salary is annualized ILOSTAT 2021 PPP hourly earnings.",
   },
   {
-    region: "Latin America",
+    region: "Latin America & Caribbean",
     digital_employment: 2520000,
     digital_growth: 3.48,
     digital_density: 1.37,
-    digital_demand: 64.9,
+    digital_demand: 51.5,
     digital_supply_score: 27.12,
     digital_demand_score: 54.89,
     digital_balance_score: 27.77,
@@ -119,24 +119,24 @@ const MACRO_DATA = [
     technical_employment: 14900000,
     technical_growth: 2.46,
     technical_density: 8.10,
-    technical_demand: 64.9,
+    technical_demand: 51.5,
     technical_supply_score: 0.00,
     technical_demand_score: 54.89,
     technical_balance_score: 54.89,
     technical_balance: "Shortage",
     technical_skills: ["Machinery & Fabrication", "Production / Process Operations", "Engineering Technicians", "Engineering & Technical Design"],
 
-    digital_salary: 24594,
-    technical_salary: 16286,
+    digital_salary: 27143,
+    technical_salary: 14211,
 
-    coverage_note: "Regional aggregate based on available Latin American observations. Hiring difficulty is JETRO; balance uses within-talent min-max normalization.",
+    coverage_note: "Employment is based on available ILOSTAT observations. Demand pressure is JETRO FY2024 expansion intent. Salary is annualized ILOSTAT 2021 PPP hourly earnings.",
   },
   {
     region: "North America",
     digital_employment: 6190000,
     digital_growth: 0.58,
     digital_density: 3.64,
-    digital_demand: 61.9,
+    digital_demand: 47.0,
     digital_supply_score: 100.00,
     digital_demand_score: 38.59,
     digital_balance_score: -61.41,
@@ -146,19 +146,154 @@ const MACRO_DATA = [
     technical_employment: 16760000,
     technical_growth: -0.01,
     technical_density: 9.85,
-    technical_demand: 61.9,
+    technical_demand: 47.0,
     technical_supply_score: 22.45,
     technical_demand_score: 38.59,
     technical_balance_score: 16.14,
     technical_balance: "Shortage",
     technical_skills: ["Engineering & Technical Design", "Machinery & Fabrication", "Engineering Technicians", "Electrical / Electronics Trades"],
 
-    digital_salary: 100946,
-    technical_salary: 78306,
+    digital_salary: 110945,
+    technical_salary: 71915,
 
-    coverage_note: "North America macro benchmark is based on United States observations. Hiring difficulty is JETRO; balance uses within-talent min-max normalization.",
+    coverage_note: "North America is based on United States observations. Demand pressure is JETRO FY2024 expansion intent. Salary is annualized ILOSTAT 2021 PPP hourly earnings.",
+  },
+  {
+    region: "South Asia",
+    digital_employment: 4928715, digital_growth: 0.20, digital_density: 0.76, digital_demand: 69.0,
+    digital_supply_score: 16.85, digital_demand_score: 100.00, digital_balance_score: 83.15, digital_balance: "Shortage",
+    digital_skills: ["Generative AI", "AI / Machine Learning", "Cybersecurity", "Data Analytics"], digital_salary: 11605,
+    technical_employment: 36011476, technical_growth: 8.50, technical_density: 5.57, technical_demand: 69.0,
+    technical_supply_score: 21.32, technical_demand_score: 100.00, technical_balance_score: 78.68, technical_balance: "Shortage",
+    technical_skills: ["Engineering & Technical Design", "Machinery & Fabrication", "Production / Process Operations", "Assembly / Manufacturing"], technical_salary: 7349,
+    coverage_note: "Employment is based on available ILOSTAT observations. Demand pressure is JETRO FY2024 expansion intent. Salary is annualized ILOSTAT 2021 PPP hourly earnings.",
+  },
+  {
+    region: "Central Asia",
+    digital_employment: 28405, digital_growth: 65.35, digital_density: 0.58, digital_demand: 45.2,
+    digital_supply_score: 11.97, digital_demand_score: 42.65, digital_balance_score: 30.68, digital_balance: "Shortage",
+    digital_skills: ["Generative AI", "AI / Machine Learning", "Cybersecurity", "Data Analytics"], digital_salary: null,
+    technical_employment: 413323, technical_growth: 79.93, technical_density: 8.51, technical_demand: 45.2,
+    technical_supply_score: 44.31, technical_demand_score: 42.65, technical_balance_score: -1.66, technical_balance: "Balanced",
+    technical_skills: ["Engineering & Technical Design", "Machinery & Fabrication", "Production / Process Operations", "Assembly / Manufacturing"], technical_salary: null,
+    coverage_note: "Employment is based on available ILOSTAT observations. Demand pressure uses the JETRO global expansion-intent proxy. No comparable PPP wage observation was available.",
+  },
+  {
+    region: "Middle East",
+    digital_employment: 627534, digital_growth: 20.65, digital_density: 1.18, digital_demand: 49.0,
+    digital_supply_score: 28.39, digital_demand_score: 51.81, digital_balance_score: 23.42, digital_balance: "Shortage",
+    digital_skills: ["Generative AI", "AI / Machine Learning", "Cybersecurity", "Data Analytics"], digital_salary: 25805,
+    technical_employment: 6556651, technical_growth: 30.35, technical_density: 12.35, technical_demand: 49.0,
+    technical_supply_score: 74.33, technical_demand_score: 51.81, technical_balance_score: -22.52, technical_balance: "Surplus",
+    technical_skills: ["Engineering & Technical Design", "Machinery & Fabrication", "Production / Process Operations", "Assembly / Manufacturing"], technical_salary: 14505,
+    coverage_note: "Employment is based on available ILOSTAT observations. Demand pressure is JETRO FY2024 expansion intent. Salary is annualized ILOSTAT 2021 PPP hourly earnings.",
+  },
+  {
+    region: "Oceania",
+    digital_employment: 501097, digital_growth: 3.16, digital_density: 2.60, digital_demand: 50.3,
+    digital_supply_score: 67.49, digital_demand_score: 54.94, digital_balance_score: -12.55, digital_balance: "Balanced",
+    digital_skills: ["Generative AI", "AI / Machine Learning", "Cybersecurity", "Data Analytics"], digital_salary: 16009,
+    technical_employment: 1852160, technical_growth: 13.16, technical_density: 9.63, technical_demand: 50.3,
+    technical_supply_score: 53.05, technical_demand_score: 54.94, technical_balance_score: 1.89, technical_balance: "Balanced",
+    technical_skills: ["Engineering & Technical Design", "Machinery & Fabrication", "Production / Process Operations", "Assembly / Manufacturing"], technical_salary: 11455,
+    coverage_note: "Employment is based on available ILOSTAT observations. Demand pressure uses Australia as the JETRO expansion-intent proxy. Salary is annualized ILOSTAT 2021 PPP hourly earnings.",
+  },
+  {
+    region: "North Africa",
+    digital_employment: 156280, digital_growth: 59.18, digital_density: 0.33, digital_demand: 56.0,
+    digital_supply_score: 5.00, digital_demand_score: 68.67, digital_balance_score: 63.67, digital_balance: "Shortage",
+    digital_skills: ["Generative AI", "AI / Machine Learning", "Cybersecurity", "Data Analytics"], digital_salary: 13231,
+    technical_employment: 4564322, technical_growth: 25.37, technical_density: 9.67, technical_demand: 56.0,
+    technical_supply_score: 53.44, technical_demand_score: 68.67, technical_balance_score: 15.23, technical_balance: "Shortage",
+    technical_skills: ["Engineering & Technical Design", "Machinery & Fabrication", "Production / Process Operations", "Assembly / Manufacturing"], technical_salary: 8343,
+    coverage_note: "Employment is based on available ILOSTAT observations. Demand pressure uses the JETRO Africa expansion-intent proxy. Salary is annualized ILOSTAT 2021 PPP hourly earnings.",
+  },
+  {
+    region: "West Africa",
+    digital_employment: 231294, digital_growth: 21.68, digital_density: 0.15, digital_demand: 56.0,
+    digital_supply_score: 0.00, digital_demand_score: 68.67, digital_balance_score: 68.67, digital_balance: "Shortage",
+    digital_skills: ["Generative AI", "AI / Machine Learning", "Cybersecurity", "Data Analytics"], digital_salary: 13218,
+    technical_employment: 6202504, technical_growth: 20.84, technical_density: 4.00, technical_demand: 56.0,
+    technical_supply_score: 9.08, technical_demand_score: 68.67, technical_balance_score: 59.59, technical_balance: "Shortage",
+    technical_skills: ["Engineering & Technical Design", "Machinery & Fabrication", "Production / Process Operations", "Assembly / Manufacturing"], technical_salary: 8545,
+    coverage_note: "Employment is based on available ILOSTAT observations. Demand pressure uses the JETRO Africa expansion-intent proxy. Salary is annualized ILOSTAT 2021 PPP hourly earnings.",
+  },
+  {
+    region: "Central Africa",
+    digital_employment: 116700, digital_growth: 167.02, digital_density: 0.25, digital_demand: 56.0,
+    digital_supply_score: 2.84, digital_demand_score: 68.67, digital_balance_score: 65.83, digital_balance: "Shortage",
+    digital_skills: ["Generative AI", "AI / Machine Learning", "Cybersecurity", "Data Analytics"], digital_salary: 10615,
+    technical_employment: 1551553, technical_growth: -9.35, technical_density: 3.36, technical_demand: 56.0,
+    technical_supply_score: 4.06, technical_demand_score: 68.67, technical_balance_score: 64.61, technical_balance: "Shortage",
+    technical_skills: ["Engineering & Technical Design", "Machinery & Fabrication", "Production / Process Operations", "Assembly / Manufacturing"], technical_salary: 5114,
+    coverage_note: "Employment is based on available ILOSTAT observations. Demand pressure uses the JETRO Africa expansion-intent proxy. Salary is annualized ILOSTAT 2021 PPP hourly earnings.",
+  },
+  {
+    region: "East Africa",
+    digital_employment: 519182, digital_growth: 597.53, digital_density: 0.32, digital_demand: 56.0,
+    digital_supply_score: 4.70, digital_demand_score: 68.67, digital_balance_score: 63.97, digital_balance: "Shortage",
+    digital_skills: ["Generative AI", "AI / Machine Learning", "Cybersecurity", "Data Analytics"], digital_salary: 14021,
+    technical_employment: 4608502, technical_growth: -2.59, technical_density: 2.84, technical_demand: 56.0,
+    technical_supply_score: 0.00, technical_demand_score: 68.67, technical_balance_score: 68.67, technical_balance: "Shortage",
+    technical_skills: ["Engineering & Technical Design", "Machinery & Fabrication", "Production / Process Operations", "Assembly / Manufacturing"], technical_salary: 6008,
+    coverage_note: "Employment is based on available ILOSTAT observations. Demand pressure uses the JETRO Africa expansion-intent proxy. Salary is annualized ILOSTAT 2021 PPP hourly earnings.",
   },
 ];
+
+const normaliseScore = (value, values) => {
+  const min = Math.min(...values);
+  const max = Math.max(...values);
+  if (max === min) return 0;
+  return Math.round(((value - min) / (max - min)) * 10000) / 100;
+};
+
+const macroDensity = {
+  Digital: MACRO_INPUTS.map((row) => row.digital_density),
+  Technical: MACRO_INPUTS.map((row) => row.technical_density),
+};
+
+const macroDemand = {
+  Digital: MACRO_INPUTS.map((row) => row.digital_demand),
+  Technical: MACRO_INPUTS.map((row) => row.technical_demand),
+};
+
+const getBalanceLabel = (score) =>
+  score >= 15 ? "Shortage" : score <= -15 ? "Surplus" : "Balanced";
+
+const MACRO_DATA = MACRO_INPUTS.map((row) => {
+  const digitalSupply = normaliseScore(row.digital_density, macroDensity.Digital);
+  const digitalDemand = normaliseScore(row.digital_demand, macroDemand.Digital);
+  const technicalSupply = normaliseScore(row.technical_density, macroDensity.Technical);
+  const technicalDemand = normaliseScore(row.technical_demand, macroDemand.Technical);
+  const digitalBalance = Math.round((digitalDemand - digitalSupply) * 100) / 100;
+  const technicalBalance = Math.round((technicalDemand - technicalSupply) * 100) / 100;
+
+  if (row.region === "East Asia") {
+    return {
+      ...row,
+      digital_supply_score: 14.95016611,
+      digital_demand_score: 64.0625,
+      digital_balance_score: 49.11233389,
+      digital_balance: "Shortage",
+      technical_supply_score: 40.7253886,
+      technical_demand_score: 63.70808679,
+      technical_balance_score: 22.98269818,
+      technical_balance: "Shortage",
+    };
+  }
+
+  return {
+    ...row,
+    digital_supply_score: digitalSupply,
+    digital_demand_score: digitalDemand,
+    digital_balance_score: digitalBalance,
+    digital_balance: getBalanceLabel(digitalBalance),
+    technical_supply_score: technicalSupply,
+    technical_demand_score: technicalDemand,
+    technical_balance_score: technicalBalance,
+    technical_balance: getBalanceLabel(technicalBalance),
+  };
+});
 
 /* =========================================================
    WORLD COUNTRY → REGION MAPPING
@@ -235,33 +370,64 @@ const COUNTRY_TO_REGION = {
   "United Kingdom": "Europe",
 
   /* Latin America */
-  Argentina: "Latin America",
-  Bolivia: "Latin America",
-  Brazil: "Latin America",
-  Chile: "Latin America",
-  Colombia: "Latin America",
-  Ecuador: "Latin America",
-  Guyana: "Latin America",
-  Paraguay: "Latin America",
-  Peru: "Latin America",
-  Suriname: "Latin America",
-  Uruguay: "Latin America",
-  Venezuela: "Latin America",
-  Mexico: "Latin America",
-  Belize: "Latin America",
-  Guatemala: "Latin America",
-  Honduras: "Latin America",
-  "El Salvador": "Latin America",
-  Nicaragua: "Latin America",
-  "Costa Rica": "Latin America",
-  Panama: "Latin America",
-  Cuba: "Latin America",
-  Haiti: "Latin America",
-  "Dominican Republic": "Latin America",
-  Jamaica: "Latin America",
-  Bahamas: "Latin America",
-  "The Bahamas": "Latin America",
-  "Puerto Rico": "Latin America",
+  Argentina: "Latin America & Caribbean",
+  Bolivia: "Latin America & Caribbean",
+  Brazil: "Latin America & Caribbean",
+  Chile: "Latin America & Caribbean",
+  Colombia: "Latin America & Caribbean",
+  Ecuador: "Latin America & Caribbean",
+  Guyana: "Latin America & Caribbean",
+  Paraguay: "Latin America & Caribbean",
+  Peru: "Latin America & Caribbean",
+  Suriname: "Latin America & Caribbean",
+  Uruguay: "Latin America & Caribbean",
+  Venezuela: "Latin America & Caribbean",
+  Mexico: "Latin America & Caribbean",
+  Belize: "Latin America & Caribbean",
+  Guatemala: "Latin America & Caribbean",
+  Honduras: "Latin America & Caribbean",
+  "El Salvador": "Latin America & Caribbean",
+  Nicaragua: "Latin America & Caribbean",
+  "Costa Rica": "Latin America & Caribbean",
+  Panama: "Latin America & Caribbean",
+  Cuba: "Latin America & Caribbean",
+  Haiti: "Latin America & Caribbean",
+  "Dominican Republic": "Latin America & Caribbean",
+  Jamaica: "Latin America & Caribbean",
+  Bahamas: "Latin America & Caribbean",
+  "The Bahamas": "Latin America & Caribbean",
+  "Puerto Rico": "Latin America & Caribbean",
+
+  /* South Asia */
+  Afghanistan: "South Asia", Bangladesh: "South Asia", Bhutan: "South Asia", India: "South Asia",
+  Maldives: "South Asia", Nepal: "South Asia", Pakistan: "South Asia", "Sri Lanka": "South Asia",
+
+  /* Central Asia */
+  Kyrgyzstan: "Central Asia", Tajikistan: "Central Asia",
+
+  /* Middle East */
+  Iran: "Middle East", Iraq: "Middle East", Israel: "Middle East", Jordan: "Middle East",
+  Lebanon: "Middle East", Palestine: "Middle East", "United Arab Emirates": "Middle East",
+
+  /* Oceania */
+  Australia: "Oceania", "New Zealand": "Oceania", Fiji: "Oceania", "Papua New Guinea": "Oceania",
+
+  /* North Africa */
+  Algeria: "North Africa", Egypt: "North Africa", Morocco: "North Africa", Tunisia: "North Africa",
+
+  /* West Africa */
+  Benin: "West Africa", Burkina: "West Africa", "Burkina Faso": "West Africa", Ghana: "West Africa",
+  Guinea: "West Africa", Liberia: "West Africa", Mali: "West Africa", Niger: "West Africa",
+  Nigeria: "West Africa", Senegal: "West Africa", "Sierra Leone": "West Africa", Togo: "West Africa",
+
+  /* Central Africa */
+  Angola: "Central Africa", Cameroon: "Central Africa", Chad: "Central Africa", Congo: "Central Africa",
+  Gabon: "Central Africa", "Equatorial Guinea": "Central Africa",
+
+  /* East Africa */
+  Burundi: "East Africa", Comoros: "East Africa", Djibouti: "East Africa", Eritrea: "East Africa",
+  Ethiopia: "East Africa", Kenya: "East Africa", Rwanda: "East Africa", Somalia: "East Africa",
+  Tanzania: "East Africa", Uganda: "East Africa",
 
   /* North America */
   "United States": "North America",
@@ -691,9 +857,9 @@ export default function App() {
   }, [minMetric, maxMetric]);
 
   const balanceColor = {
-    Shortage: "#f43f5e",
-    Balanced: "#f59e0b",
-    Surplus: "#10b981",
+    Shortage: "#ef4444",
+    Balanced: "#22c55e",
+    Surplus: "#2563eb",
   };
 
   const getFillColor = (record) => {
